@@ -1,0 +1,29 @@
+##########################
+# Deep Learning Framework
+##########################
+torch>=2.2.0           # Core PyTorch for tensors, training, and CTC loss
+torchvision>=0.17.0    # Image transforms (Resize, ToTensor)
+timm>=0.9.8            # EfficientNet backbone from HuggingFace timm repo
+
+##########################
+# Image Processing
+##########################
+pillow>=10.0.0         # Loading and processing captcha images (PIL)
+
+##########################
+# Data Handling
+##########################
+pandas>=2.0.0          # Creating CSV dataset index
+numpy>=1.26.0          # Numerical utilities
+
+##########################
+# Optional Visual & Progress Tools
+##########################
+tqdm>=4.66.0           # Progress bar during training (optional)
+matplotlib>=3.8.0      # Visualization for report (optional)
+
+##########################
+# Standard Library (No Install Needed)
+##########################
+argparse               # CLI argument parsing for predict.py
+os                    # File and directory operations
